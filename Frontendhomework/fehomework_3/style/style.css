@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-wrapper{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon:not(:last-child){
+    margin-right: 60px;
+}
+.main{
+    background: #4FBFA5;
+    padding: 25px 0 60px;
+}
+.main-wrapper{
+    width: 100%;
+}
+.main-top-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    color: white;
+}
+.nav-link:last-child{
+    background-color: white;
+    color: black;
+    padding: 10px 50px;
+}
+.main-descr{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.descr{
+    width: 30%;
+    font-style: italic;
+}
+.main-photo{
+    width: 60%;
+}
+.main-photo img{
+    width: 100%;
+}
+.descr-title{
+    font-weight: 400;
+    font-size: 48px;
+}
+.descr-text{
+    font-size: 14px;
+    margin: 40px 0;
+}
+.main-btn{
+    padding: 15px 25px;
+    background: #00868A;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+.special-offer{
+    padding: 146px 0 129px 0;
+}
+.offer-title{
+    text-align: center;
+    font-size: 48px;
+    color: #00868A;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+.offer-wrapper{
+    width: 68%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 70px;
+}
+.offer-item{
+    width: 25%;
+    margin-right: 20px;
+    position: relative;
+}
+.offer-item-img{
+    width: 100%;
+    display: block;
+}
+
+.offer-item-descr{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00868A;
+    padding: 25px 25px;
+    color: white;
+    font-size: 21px;
+    font-style: italic;
+}
+.offer-item-descr p{
+    width: 65%;
+}
+.offer-item-new{
+    background: #4FBFA5;
+    color: azure;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 10px 15px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

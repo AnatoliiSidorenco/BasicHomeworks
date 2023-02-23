@@ -1,0 +1,20 @@
+  #!/bin/bash
+
+for run in {1..10}
+ do
+ date | awk '{print $4}'
+ #sleep 5
+done
+echo $run
+
+ NAME="Alpine Linux"
+ env | grep NAME="Alpine Linux" | echo $NAME | awk '{print $1}' >> script.sh
+
+for walk in {50..100}
+do
+ touch Alpine.txt_$walk
+ #rm -r Alpine.txt_$walk
+done
+
+
+        

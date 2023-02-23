@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background-color: #1ABC9C;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px; /*??????*/
+}
+.social-icon {
+    margin-right: 20px;/*???????*/
+}
+.main {
+    font-family: 'Inter', sans-serif;
+}
+.about-us {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;    
+}
+.main-photo { 
+    width: 756px;
+    height: 694,38px;
+}
+.presentation {
+    margin-top: 288px;
+} 
+.first-title {
+    margin-left: 500px;
+    font-size: 35px;
+    width: 135px;
+    height: 53px;
+}
+.description {
+    text-align: justify;  
+    margin: 23px 70px 0;
+    font-size: 20px;
+}
+.our-projects {
+    background-color:#DCFFEB;
+}
+.second-title {
+    padding: 100px 0 50px 165px;
+}
+.photoprojects {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin:auto;  
+}
+.photoprj1 {
+    position: relative;
+}
+h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+	top: 235.8px;
+	left: 25px;
+}
+.h3paragraph {
+    margin-top: 16px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    position:absolute ;
+	top: 265px;
+    left: 25px;
+}

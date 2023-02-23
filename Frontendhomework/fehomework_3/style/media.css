@@ -1,0 +1,38 @@
+@media(max-width: 511px){
+    .wrapper{
+            width: 80%;
+    }
+    .main-nav{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .descr{
+        width: 100%;
+    }
+    .main-photo{
+        display: none;
+    }
+    .nav-link{
+        margin: 14px;
+        
+    }
+    .nav-link:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    .special-offer{
+        padding: 70px 40px;
+    }
+    .offer-title{
+        text-align: left;
+    }
+    .offer-wrapper{
+        width: 100%;
+        display: block;
+        padding-top: 50px;
+    }
+    .offer-item{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}
